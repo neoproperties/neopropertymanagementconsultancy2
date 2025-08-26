@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prime Property Solutions</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-2xl font-bold text-blue-800">Prime Property Solutions</h1>
+      <nav class="space-x-6">
+        <a href="#services" class="text-gray-700 hover:text-blue-800">Services</a>
+        <a href="#about" class="text-gray-700 hover:text-blue-800">About Us</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-800">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-blue-800 text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-4">Your Trusted Property Management Partner</h2>
+      <p class="text-lg mb-6">Efficient. Transparent. Reliable.</p>
+      <a href="#contact" class="bg-white text-blue-800 px-6 py-3 rounded shadow hover:bg-gray-100">Get a Free Consultation</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16">
+    <div class="container mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-10">Our Services</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Property Management</h4>
+          <p>Comprehensive solutions for residential, commercial, and mixed-use properties.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Real Estate Consulting</h4>
+          <p>Expert guidance for investments, acquisitions, and legal compliance.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Tenant Services</h4>
+          <p>Screening, leasing, rent collection, and issue resolution to protect your ROI.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-100 py-16">
+    <div class="container mx-auto px-4 md:flex md:items-center md:justify-between">
+      <div class="md:w-1/2 mb-8 md:mb-0">
+        <h3 class="text-3xl font-semibold mb-4">About Us</h3>
+        <p class="text-gray-700">With over 15 years of experience in the property industry, we pride ourselves on delivering tailored property solutions backed by market insights, technology, and integrity. We are your long-term partner in building real estate success.</p>
+      </div>
+      <div class="md:w-1/2">
+        <img src="https://images.unsplash.com/photo-1581093588401-8fbd26a5d8c4?auto=format&fit=crop&w=800&q=80" alt="Property Management" class="rounded shadow">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16">
+    <div class="container mx-auto px-4 max-w-2xl">
+      <h3 class="text-3xl font-semibold text-center mb-8">Contact Us</h3>
+      <form class="bg-white p-8 rounded shadow space-y-6">
+        <div>
+          <label class="block mb-2 text-sm font-medium">Full Name</label>
+          <input type="text" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="John Doe" required>
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium">Email Address</label>
+          <input type="email" class="w-full border border-gray-300 rounded px-4 py-2" placeholder="john@example.com" required>
+        </div>
+        <div>
+          <label class="block mb-2 text-sm font-medium">Message</label>
+          <textarea class="w-full border border-gray-300 rounded px-4 py-2" rows="5" placeholder="How can we help you?" required></textarea>
+        </div>
+        <button type="submit" class="bg-blue-800 text-white px-6 py-3 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-600">
+    &copy; 2025 Prime Property Solutions. All rights reserved.
+  </footer>
+
+</body>
+</html>
